@@ -1,0 +1,4 @@
+# list-ADT
+Implementing a list ADT (abstract data type) was my midterm project for Data Structures & Algorithms (COP3530). Though lists are available in C++'s standard template library, we created 5 different versions of the list from scratch to make the list structure more adaptable. (These versions were a Singly Linked List, a Pooled Singly Linked List, a Simple Dynamic Array List backed by a single array, a Chained Dynamic Array List backed by a linked list of arrays, and  Circular Buffer List backed by a circular array.)
+
+With each version of the list, we defined the following functions: insert at (given a value and a position in the list), replace (given a value to swap at a given position), remove (given a position), item at (returns the value at a given position), length (returns length of list), contains (returns T/F if the list contains a given value), and some more basic functions. (You can check out the full list of functions in the List.h file.)
